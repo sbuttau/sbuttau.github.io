@@ -2,14 +2,18 @@
 layout: page
 permalink: /teaching/
 title: teaching
-description: Course materials, schedules, and resources for classes taught.
+description:
 nav: true
 nav_order: 6
-calendar: true
+calendar: false
 ---
 
-This page displays a collection of courses with detailed schedules, materials, and resources. You can organize your courses by years, terms, or topics.
+<p><em>Work in progress — coming soon.</em></p>
+
+{% comment %}
+Course listing disabled until real courses are added to `_teachings/`. Remove this comment block (and set `calendar: true` if needed) to re-enable it.
 
 {% include calendar.liquid calendar_id='test@gmail.com' timezone='Asia/Shanghai' %}
 
 {% include courses.liquid %}
+{% endcomment %}

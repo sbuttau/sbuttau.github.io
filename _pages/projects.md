@@ -2,12 +2,17 @@
 layout: page
 title: projects
 permalink: /projects/
-description: A growing collection of your cool projects.
+description:
 nav: true
 nav_order: 3
 display_categories: [work, fun]
 horizontal: false
 ---
+
+<p><em>Work in progress — coming soon.</em></p>
+
+{% comment %}
+Project listing disabled until real projects are added to `_projects/`. Remove this comment block to re-enable it.
 
 <!-- pages/projects.md -->
 <div class="projects">
@@ -63,3 +68,4 @@ horizontal: false
   {% endif %}
 {% endif %}
 </div>
+{% endcomment %}
