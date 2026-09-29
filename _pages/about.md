@@ -6,8 +6,8 @@ subtitle: University of Padua
 
 profile:
   align: right
-  image: prof_pic.JPEG
-  image_circular: false # crops the image to make it circular
+  image: prof_pic2.JPEG
+  image_circular: true # crops the image to make it circular
   more_info: >
     <p>PhD Student</p>
     <p>University of Padua</p>
