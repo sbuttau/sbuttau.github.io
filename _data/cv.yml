@@ -1,189 +1,133 @@
 cv:
-  name: Albert Einstein
-  label: Scientist
-  email: einstein@example.com
-  location: Princeton, NJ
+  name: Sara Buttau
+  label: Computer Scientist
+  email: sara.buttau@phd.unipd.it
+  location: Padua, Italy
   image: ""
-  summary: A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time
+  summary: >-
+    Computer Vision PhD student at the University of Padua with an MSc in Computer Science. Experienced in developing deep learning models for
+    real-world applications, including 2D and 3D human monitoring, visual phrase grounding and medical imaging. Currently, I am part of the
+    Visual Intelligence and Machine Perception Group, supervised by Professor Lamberto Ballan, exploring 3D visual-language tasks for 3D scene
+    understanding.
 
   social_networks:
-    - network: X
-      username: AlbertEinstein
     - network: GitHub
-      username: example
+      username: sbuttau
     - network: LinkedIn
-      username: example
-
-  address:
-    street: 2712 Broadway St
-    city: San Francisco
-    region: California
-    postalCode: CA 94115
-    countryCode: US
+      username: sara-buttau
 
   sections:
     Education:
-      - institution: University of Zurich
-        location: Zurich, Switzerland
-        url: https://www.uzh.ch/
-        area: Physics
+      - institution: University of Padua
+        location: Padua, Italy
+        area: Brain, Mind and Computer Science
         studyType: PhD
-        start_date: 1900
-        end_date: 1905
-        score: ""
-        courses: "Theory of Relativity"
+        start_date: 2025-11
+        end_date: present
         highlights:
-          - Description 1.
-          - Description 2.
+          - "Supervisor: prof. Lamberto Ballan"
+          - "Research focus: 3D visual grounding for rich 3D scene understanding"
 
-      - institution: Eidgenössische Technische Hochschule
-        location: Zurich, Switzerland
-        area: Physics
-        studyType: Federal teaching diploma
-        start_date: 1896
-        end_date: 1900
+      - institution: University of Padua
+        location: Padua, Italy
+        area: Computer Science
+        studyType: MSc
+        start_date: 2021-09
+        end_date: 2023-09
+        score: 110 cum laude
         highlights:
-          - Description 1.
-          - Description 2.
+          - "Thesis: *Exploring Untrained Zero-Shot Visual Grounding: Proposal Generation and Unsupervised Alignment Techniques*"
+
+      - institution: Vrije Universiteit Amsterdam
+        location: Amsterdam, Netherlands
+        area: Computer Science
+        studyType: Erasmus+ Studio
+        start_date: 2022-08
+        end_date: 2023-01
+
+      - institution: University of Cagliari
+        location: Cagliari, Italy
+        area: Computer Science
+        studyType: BSc
+        start_date: 2017-09
+        end_date: 2021-02
+        score: 110 cum laude
+        highlights:
+          - "Thesis: *Diagnosis of Alzheimer's disease: a transfer learning method*"
 
     Experience:
-      - company: Institute for Advanced Study, Princeton University
-        position: Professor of Theoretical Physics
-        location: Princeton University, NJ
-        start_date: 1933
-        end_date: 1955
-        summary: Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.
+      - company: EVS Embedded Vision Systems Srl, University of Verona
+        position: Research Assistant
+        location: Verona, Italy
+        start_date: 2024-01
+        end_date: 2025-10
+        summary: I worked on several team projects concerning indoor human monitoring, spanning object detection, 2D/3D human pose estimation and mesh recovery, and 3D occupancy prediction.
         highlights:
-          - Relativity
-          - Description 2.
+          - Conducted quantization, optimization strategies and latency assessments to maximize performance within embedded environments
+          - Communicated findings to clients and offered recommendations for future research directions
+          - Represented the company at its industry exhibition booth at ECCV 2024 (Milan)
 
-      - company: California Institute of Technology
-        position: Visiting Professor
-        location: Pasadena, California, US
-        start_date: 1933
-        end_date: 1933
+      - company: Visual Intelligence and Machine Perception Group (VIMP), University of Padua
+        position: Research Intern
+        location: Padua, Italy
+        start_date: 2023-03
+        end_date: 2023-09
+        summary: This internship was the basis for my MSc dissertation, under the supervision of prof. Lamberto Ballan.
         highlights:
-          - Description 1.
-          - Description 2.
+          - Approached the task of visual phrase grounding to align natural language phrases with specific objects in images, developing an unsupervised model focused on proposal generation
+          - Investigated the effect of vocabulary size on zero-shot unsupervised visual grounding, using three state-of-the-art detectors
+          - Explored alignment mechanisms for region-phrase pairs, improving matching between visual and textual elements
 
-      - company: Kaiser Wilhelm Institute for Physics
-        position: Director
-        location: Berlin, Germany
-        start_date: 1917
-        end_date: 1933
-
-      - company: Karl-Ferdinand University
-        position: Professor of Theoretical Physics
-        location: Prague, Czechoslovakia
-        start_date: 1911
-        end_date: 1917
-
-      - company: University of Zurich
-        position: Associate Professor of Theoretical Physics
-        location: Zurich, Switzerland
-        start_date: 1909
-        end_date: 1911
-
-    Volunteer:
-      - company: People's Climate March
-        position: Lead Organizer
-        location: Zurich, Switzerland
-        start_date: 2014-04-01
-        end_date: 2015-07-01
-        summary: Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.
+      - company: University of Cagliari
+        position: Research Intern
+        location: Cagliari, Italy
+        start_date: 2020-03
+        end_date: 2021-02
+        summary: This internship was the basis for my BSc dissertation, supervised by prof. Cecilia Di Ruberto and dr. Andrea Loddo.
         highlights:
-          - "Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march."
-          - "Men of the year 2014 by Time magazine"
+          - Developed diagnostic models for Alzheimer's disease and dementia stages from medical MRIs
+          - Fine-tuned and cross-validated five CNN-based classification models on three datasets
+          - Achieved state-of-the-art performance in binary and multiclass classification
+
+    Schools:
+      - bullet: "[FoMo 2026 – ELLIS Winter School on Foundation Models](https://ivi.fnwi.uva.nl/ellis/events/winter-school-on-foundation-models-fomo-2026-registration-opens-on-14-november-2025/), Amsterdam, 2026"
+      - bullet: "[VISMAC 2026 Summer School](https://vismac2026.github.io/), Siena, 2026"
+
+    Third Mission:
+      - bullet: "Volunteer at ICANN 2026, Padua, 14–17 July 2026"
+      - bullet: "Volunteer at IEEE WCCI 2022, Padua, 18–23 July 2022"
 
     Awards:
-      - title: Nobel Prize in Physics
-        authors:
-          - "Royal Swedish Academy of Sciences"
-        date: 1921-11-01
-        awarder: Royal Swedish Academy of Sciences
-        url: https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/
-        summary: The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'
-
-      - title: Max Planck Medal
-        authors:
-          - "German Physical Society"
-        date: 2029
-        awarder: German Physical Society
-        summary: Awarded for outstanding scientific achievement
+      - title: Best Poster Award
+        date: 2026-09
+        awarder: VISMAC 2026 (Siena)
+        summary: "Probing 3D Representations for Semantic Segmentation and Language Grounding"
 
     Publications:
-      - title: Zur Elektrodynamik bewegter Körper
+      - title: "Deep learning-based pipelines for Alzheimer's disease diagnosis: A comparative study and a novel deep-ensemble method"
         authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-06-30
-        url: https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies
-        summary: It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source.
-
-      - title: Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-03-18
-        url: https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt
-        summary: In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921.
-
-      - title: Die Grundlage der allgemeinen Relativitätstheorie
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1916-03-20
-        url: https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie
-        summary: The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914).
+          - Andrea Loddo
+          - Sara Buttau
+          - Cecilia Di Ruberto
+        publisher: Computers in Biology and Medicine, 141, 105032
+        releaseDate: 2022
+        url: https://doi.org/10.1016/j.compbiomed.2021.105032
 
     Skills:
-      - name: Physics
-        level: Master
-        icon: fa-solid fa-hashtag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
+      - name: Programming languages
+        icon: fa-solid fa-code
+        keywords: "Python, C, Java, Matlab, SQL"
+
+      - name: Frameworks
+        icon: fa-solid fa-layer-group
+        keywords: "PyTorch, PyTorch Lightning, TensorFlow, Keras"
 
     Languages:
-      - name: German
-        summary: "Native speaker"
+      - name: Italian
+        summary: "Native"
 
       - name: English
-        summary: "Fluent"
+        summary: "C2"
 
-    Interests:
-      - name: Physics
-        icon: fa-solid fa-tag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
-
-    Certificates:
-      - name: Machine Learning
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-location-dot
-
-      - name: Quantum Computing
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-tag
-
-      - name: Quantum Information
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-envelope
-
-    Projects:
-      - name: Quantum Computing
-        summary: Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.
-        highlights:
-          - Quantum Teleportation
-          - Quantum Cryptography
-        start_date: 2018-01-01
-        end_date: 2018-01-01
-
-    References:
-      - name: Professor John Doe
-        icon: fa-solid fa-laptop
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
-
-      - name: Professor Jane Smith
-        icon: fa-solid fa-thumbtack
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+      - name: Spanish
+        summary: "B2"
