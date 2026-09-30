@@ -6,7 +6,7 @@ subtitle: University of Padua
 
 profile:
   align: right
-  image: prof_pic2.JPEG
+  image: prof_pic_square.jpg
   image_circular: true # crops the image to make it circular
   more_info: >
     <p>sara.buttau@phd.unipd.it</p>
